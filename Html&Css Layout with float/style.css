@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+*{
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size:16px;
+    line-height: 1.5;
+}
+body{
+    
+    width: 1000px;
+    max-width:100%;
+    margin: 0 auto;
+    background-color:rgb(245, 245, 245);
+    
+}
+div h1{
+    font-size: 80px;
+    font-family: 'Nothing You Could Do', cursive;
+    color: #2A3D45;
+   
+}
+.cleaner{
+    clear:both;
+}
+div.bottom-content{
+    
+    max-width:100%;
+    overflow:hidden;
+    
+    position:relative;
+    
+}
+div.bottom-content div.bottom-content-text{
+    float:left;
+    width:20%;
+    padding-top:3rem;
+}
+div.bottom-content div.bottom-image-first{
+   height:60%;
+   width: 35%;
+   overflow: hidden;
+   position:absolute;
+    left: 23%;
+    
+}
+div.bottom-content div.bottom-image-second{
+    float:right;
+    height:65%;
+    width: 60%;
+    
+    padding-top: 10rem;
+    
+}
+div.bottom-content div.bottom-image-first img{
+    width:100%;
+    height: auto;
+    transform: translateY(-20%)
+}
+div.bottom-content div.bottom-image-second img{
+    width:100%;
+    height:auto;
+    
+}
+div.bottom-content div.bottom-image-third{
+    width:30%;
+    height:50%;
+    transform: translate(50px, -200px );
+    overflow: hidden;
+    float:left;
+
+    
+}
+div.bottom-content div.bottom-image-third img{
+    filter:  brightness(60%);
+    filter: grayscale(70%);
+    width:100%;
+    height:auto;
+   
+}
+div.bottom-content > p{
+    float:left;
+    margin-bottom:2rem;
+}
+div.main-container{
+    height:80vh;
+    width:70%;
+    max-width:70%;
+    overflow:hidden;
+    position:relative;
+    margin-bottom:8rem;
+    float:left;
+    
+
+}
+div.main-container-text{
+float:right;
+margin-top:15rem;
+max-width:30%;
+min-height: 10em;
+}
+
+
+div.main-container img{
+   max-height:100%;
+   max-width:auto;
+}
+div.main-container img.second-img{
+    height:70%;
+    width:auto;
+    position:absolute;
+    top:15%;left:50%;
+    float:left;
+     
+}
+div.main-container img:hover{
+    opacity: 0.8;
+}
+header>div {
+    clear: both;
+    width: 700px;
+    max-width:100%;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 4rem;
+    
+}
+nav ul{
+    margin-top: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+   
+    
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+nav ul.nav-nav li{
+    float:left; 
+    padding-left: 1rem;
+    list-style: none;  
+}
+
+nav ul.social-nav li{
+    float:right;
+    list-style: none;
+    padding-left: 1rem;
+}
+nav ul.social-nav li a:before{
+    font-family:'Font Awesome 5 Brands';
+    content:'\f16d';
+    font-weight: 900;
+}
+nav ul.social-nav li:nth-child(1) > a:before{
+    font-family:'Font Awesome 5 Brands';
+    content:'\f39e';
+    font-weight: 900;
+}
+nav ul.social-nav li:nth-child(2) > a:before{
+    font-family:'Font Awesome 5 Brands';
+    content:'\f099';
+    font-weight: 900;
+}
+nav ul.social-nav li:nth-child(3) > a:before{
+    font-family:'Font Awesome 5 Brands';
+    content:'\f231';
+    font-weight: 900;
+}
+footer{
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  
+}
+div.bottom-content-text-photos{
+    float:right;
+    width:40%;
+    padding-top: 5rem;
+   margin-right:12rem;
+    
+    
+}
+footer div.footer-text{
+    max-width:20%;
+    float:left;
+
+}
+footer div.footer-images{
+    max-width:100%;
+    height:30%;
+    overflow: hidden;
+    padding-left: 5rem;
+}
+footer div.footer-images img{
+height:70%;
+width:auto;
+}
+footer div.footer-images ul li{
+    float:left;
+    list-style: none;
+}

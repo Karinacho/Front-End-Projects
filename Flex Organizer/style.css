@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+li{ 
+    list-style: none outside;
+}
+.organizer-container{
+    display:flex;
+    max-width: 40%;
+    margin: 3rem auto;
+    border: 1px solid black;
+    text-align: center;
+    height:15rem;
+}
+div.reminder-dates{
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.week{
+   
+    flex-wrap: wrap;
+    border: 1px solid black;
+    display:flex;   
+    
+}
+.day{
+    border: 1px solid black;
+    flex-grow:1;
+}
+.week p{
+    padding-top:1em;
+    flex: 0 0 100%;
+}
+.reminder-dates p{
+    flex: 0 0 50%;
+
+}
+.reminder-dates p:first-child{
+    border-bottom:1px solid black;
+}
+

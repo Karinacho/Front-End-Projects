@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+* {
+    padding:0;
+    margin:0;
+}
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 1.6;
+}
+h1{
+    font-size:2.8rem;
+}
+h2{
+    font-size:2.6rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+h4{
+    font-size: 1.6rem;
+}
+h5{
+    font-size: 1.4rem;
+}
+h6{
+    font-size: 1.2rem;
+    
+}
+h3.new{
+    color:rgb(163, 100, 165);
+    font-family: 'Merienda One', cursive;
+}
+header{
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1474625121024-7595bfbc57ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80) no-repeat center center;
+    background-size: cover;
+}
+
+header nav{
+    border-radius: 1em;
+    display:flex;
+    max-width:60%;
+    margin:0 auto;
+    background: white;
+    transform: translateY(100%);
+    overflow:hidden;
+    
+}
+header nav ul{
+    display:flex;
+    margin-left: auto;
+    padding-right: 3em;
+}
+header nav ul li{
+  margin-top: 0.7em;
+  padding-left: 1.5em;
+  list-style: none outside;
+  font-size: 20px;
+  font-family: 'Merienda One', cursive;
+  font-weight: 500;
+}
+header nav ul li:hover{
+    color:#7796CB;
+    cursor: pointer;
+}
+header nav p{
+    font-family: 'Calligraffitti', cursive;
+     font-size:25px;
+     background:#FFD7D5;
+     font-weight:700;
+     padding: 0.5rem 0.6rem;
+}
+header nav p:after{
+    font-family:'Font Awesome 5 Free';
+    content: '\f004';
+    font-weight: 900;
+    padding-left: 0.5em;
+   
+}
+.menu-items{
+    display: flex;
+    background: rgb(242, 241, 230);
+    padding: 0 10rem;
+    justify-content: space-evenly;
+    font-family: 'Merienda One', cursive;
+    font-weight: 100;
+    position:relative;
+   
+   
+}
+.menu-items .item{
+    display:flex;
+    flex-direction: column;
+    flex-basis:20%;
+ 
+}
+.menu-items .item:before{
+    clip-path: circle(45% at 49% 115%);
+    display:block;
+    content:'';
+    background:url(./public/autumn.png) no-repeat center center;
+    background-size: 70px 60px;
+    height:70px;
+    width:auto;
+    transform:translateY(-44%);
+    background-color: rgb(242, 241, 230);
+    z-index: 2000;
+ 
+}
+.menu-items .item:nth-child(2):before{
+    clip-path: circle(45% at 49% 115%);
+    display:block;
+    content:'';
+    background:url(./public/plant.png) no-repeat center center;
+    background-size: 70px 60px;
+    height:70px;
+    width:auto;
+    transform:translateY(-44%);
+    background-color: rgb(242, 241, 230);
+    z-index: 2000;
+ 
+}
+.menu-items .item:nth-child(3):before{
+    clip-path: circle(45% at 49% 115%);
+    display:block;
+    content:'';
+    background:url(./public/flower.png) no-repeat center center;
+    background-size: 70px 60px;
+    height:70px;
+    width:auto;
+    transform:translateY(-44%);
+    background-color: rgb(242, 241, 230);
+    z-index: 2000;
+ 
+}
+.menu-items .item:nth-child(4):before{
+    clip-path: circle(45% at 49% 115%);
+    display:block;
+    content:'';
+    background:url(./public/clover.png) no-repeat center center;
+    background-size: 70px 60px;
+    height:70px;
+    width:auto;
+    transform:translateY(-44%);
+    background-color: rgb(242, 241, 230);
+    z-index: 2000;
+ 
+}
+.menu-items .item:after{
+display:block;
+content:'';
+height:20px;
+width:250px;
+background-color:rgb(240, 102, 86);
+position:absolute;
+transform: translateY(-88%);
+
+}
+.menu-items .item:nth-child(2):after{
+    
+    background-color:rgb(102, 205, 187);
+  
+    
+}
+.menu-items .item:nth-child(3):after{
+    
+    background-color:rgb(141, 198, 63);
+  
+    
+}
+.menu-items .item:nth-child(4):after{
+    
+    background-color:rgb(221, 189, 48);
+  
+    
+}
+.menu-items .item h4{
+    color: rgb(85, 85, 85);
+    text-align: center;
+    padding-bottom: 0.6em;
+}
+.menu-items .item p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(147, 147, 147);
+}
+.menu-items .item p.title{
+    color: rgb(147, 147, 147);
+    font-size: 18px;
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+input[type="button"]{
+   
+    padding: 0.5em 1em;
+    max-width:100px;
+    margin: 2em auto;
+    border:none;
+    font-family: 'Merienda One', cursive;
+    font-size:15px;
+    border-radius: 5%;
+    background-color:rgb(240, 102, 86); 
+}
+div:nth-child(2) > input[type=button]{
+   
+    background-color:rgb(102, 205, 187);
+}
+div:nth-child(3) > input[type=button]{
+   
+    background-color:rgb(141, 198, 63);
+}
+div:nth-child(4) > input[type=button]{
+   
+    background-color:rgb(221, 189, 48);
+}
+input[type="button"]:hover{
+    color: white;
+    cursor:pointer;
+}
+.main-images{
+    width:auto;
+    height: 50%;
+    display:flex;
+    align-content: space-around;
+    margin-bottom:3em;
+    
+}
+.bottom-image-first{
+    background: url(https://images.unsplash.com/photo-1463107971871-fbac9ddb920f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center;
+    background-size:cover;
+    flex-basis:30%;
+    height:auto;
+}
+.bottom-image-second{
+    background: url(https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center;
+    background-size:cover;
+    flex-basis:30%;
+    height:auto;
+}
+.bottom-image-third{
+    background: url(https://images.unsplash.com/photo-1566664345779-062ed10879e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center;
+    background-size:cover;
+    flex-basis:30%;
+    height:auto;
+}
+.bottom-image-fourth{
+    background: url(https://images.unsplash.com/photo-1561576722-c6bccfb931c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat center center;
+    background-size:cover;
+    flex-basis:30%;
+    height:auto;
+}
+.news{
+    overflow:hidden;
+    height: 50%;
+    background: rgb(242, 241, 230);
+    
+    display:flex;
+    font-family:'Merienda One', cursive;
+    justify-content: space-around;
+}
+.news h5{
+    color: rgb(85, 85, 85);
+}
+.news p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    color:rgb(147, 147, 147);
+}
+.news >.image-container {
+  
+ margin-left:4em;
+  position:relative;
+  margin:1em 4.5em;
+  flex:0 0 20%;
+  overflow:hidden;
+ 
+}
+.news .news-container{
+    width: 30%;
+}
+.news .image-container img{
+  display:block;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  height:auto;
+  width:100%; 
+}
+.footer{
+    height: 5em;
+    background: #534D56;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+}
+.footer{
+    align-items: center;
+}
+.footer p{
+    margin-left: 10em;
+}
+.footer p:nth-child(2){
+    margin-left:auto;
+    margin-right: 10em;
+}
+
+
